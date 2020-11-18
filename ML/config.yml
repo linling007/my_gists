@@ -1,0 +1,9 @@
+# 模型中所有的可配置参数都放在这里
+
+test: 'hello world!'
+
+# import yaml
+# stream = open('config.yml', 'r', encoding='utf8')
+# config = yaml.load(stream)
+
+# print(config['test'])
