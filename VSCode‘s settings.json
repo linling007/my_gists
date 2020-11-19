@@ -1,0 +1,48 @@
+{
+    "remote.SSH.remotePlatform": {
+        "192.168.20.4": "linux"
+    },
+    "workbench.colorTheme": "Quiet Light",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.languageServer": "Pylance",
+    "editor.fontSize": 16,
+    "editor.formatOnSave": true,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.sideBar.location": "right",
+    "python.pythonPath": "D:\\Anaconda3\\python.exe",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "window.zoomLevel": 0,
+    "prettier.printWidth": 150,
+    "editor.rulers": [100],
+    "editor.defaultFormatter": "ms-python.python",
+    "python.formatting.provider": "yapf",
+    "python.formatting.yapfArgs": [
+        "--style",
+        "{column_limit: 100}"
+    ],
+    "dart.flutterSdkPath": "D:\\flutter",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+
+    // 如果code-runner执行dart时出现中文乱码，可以使用下面这种方式解决。
+    // "code-runner.runInTerminal":true,
+
+    // code-runner 执行python时输出中文，否则为乱码
+    "code-runner.executorMap": {
+        "python": "set PYTHONIOENCODING=utf8 && python"
+    }
+   
+
+}
